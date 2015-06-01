@@ -1,0 +1,8 @@
+
+
+app_key:	54d81359fd98c5d087000a96
+
+adt -package -tsa none -storetype pkcs12 -keystore garry.p12 -storepass 871105 -target ane umeng.ane .\extension.xml  -swc .\umeng.swc -platform Android-ARM -C Android-ARM .
+
+
+adt -package -target ane umeng.ane .\extension.xml  -swc .\umeng.swc -platform Android-ARM -C Android-ARM .

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+	<id>com.xkw.ane.umeng</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>umeng.jar</nativeLibrary>
+				<initializer>com.xkw.ane.umeng.UMengExtension</initializer>
+				<finalizer>com.xkw.ane.umeng.UMengExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
